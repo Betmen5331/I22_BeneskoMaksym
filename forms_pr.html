@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+</head>
+<body>
+    <form>
+        <Label for="firstname">Ім'я:</Label>
+        <input type="text" 
+        id="firstname" 
+        name="firstname" 
+        placeholder="Ігор"
+        required><br><br>
+
+        <Label for="lastname">Прізвище:</Label>
+        <input type="text" 
+        id="lastname" 
+        name="lastname" 
+        placeholder="Бондаренко"
+        required><br><br>
+
+        <Label for="email">Електронна пошта:</Label>
+        <input type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Example@email.com"
+        required><br><br>
+
+        <Label for="telephone">Номер телефону:</Label>
+        <input type="tel" 
+        id="telephone" 
+        name="telephone" 
+        placeholder="+380 00 000 00 00"
+        required><br><br>
+
+        <Label for="date">Дата вїзду:</Label>
+        <input type="date" 
+        id="date" 
+        name="date" 
+        required><br><br>
+
+        <Label for="date">Дата виїзду:</Label>
+        <input type="date" 
+        id="date" 
+        name="date" 
+        required><br><br>
+
+        <Label for="number">Кількість людей:</Label>
+        <input type="number"
+        id="number"
+        name="number"
+        min="1"
+        max="6"><br><br>
+
+        <Label for="Room">Виберіть тип номеру:</Label><br>
+        <input type="radio"
+        id="Room"
+        name="Room"
+        value="Стандарт"
+        required> Стандарт<br>
+        <input type="radio"
+        id="Room"
+        name="Room"
+        value="Напівлюкс"
+        required> Напівлюкс<br>
+        <input type="radio"
+        id="Room"
+        name="Room"
+        value="Люкс"
+        required> ЛЮКС<br><br>
+
+        <Label for="services">Додаткові послуги:</Label><br>
+        <input type="checkbox" id="services" name="services" value="Сніданок">Сніданок<br>
+        <input type="checkbox" id="services" name="services" value="Паркінг">Паркінг<br>
+        <input type="checkbox" id="services" name="services" value="Трансфер">Трансфер<br>
+        <input type="checkbox" id="services" name="services" value="Додаткове прибирання">Додаткове прибирання<br><br>
+
+        <Select name="town" id="town">
+            <option value="Kyiv">Київ</option>
+            <option value="Lviv">Львів</option>
+            <option value="Odesa">Одеса</option>
+            <option value="Uzhorod">Ужгород</option>
+            <option value="Chernivtsi">Чернівці</option>
+        </Select><br><br>
+
+        <Label for="message">Додаткові побажання:</Label><br>
+        <textarea id="message" name="message" rows="4" cols="50" maxlength="250" placeholder="Введіть ваші побажання..."></textarea><br><br>
+
+        <button type="submit">Забронювати</button>
+    </form>
+</body>
+</html>
