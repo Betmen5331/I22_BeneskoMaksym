@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <caption>
+            Каталог товарів
+        </caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Категорія</th>
+                <th colspan="2">Інформація про товар</th>
+                <th rowspan="2">Ціна</th>
+                <th rowspan="2">Наявність</th>
+            </tr>
+            <tr>
+                <th>Назва товару</th>
+                <th>Виробник</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Телевізори</td>
+                <td>Samsung UE55TU8000U</td>
+                <td>Samsung</td>
+                <td>15 000 грн</td>
+                <td>В наявності</td>
+            </tr>
+
+            <tr>
+                <td>LG 55NANO866NA</td>
+                <td>LG</td>
+                <td>18 000 грн</td>
+                <td>В наявності</td>
+            </tr>
+
+            <tr>
+                <td>Телефони</td>
+                <td>Xiaomi Redmi Note 14 4G 256/128</td>
+                <td>Xiaomi</td>
+                <td>8 500 грн</td>
+                <td>Немає в наявності</td>
+            </tr>
+
+            <tr>
+                <td>Ноутбуки</td>
+                <td>Acer Aspire 5 A515-56G-50XK</td>
+                <td>Acer</td>
+                <td>25 000 грн</td>
+                <td>В наявності</td>
+            </tr>
+
+            <tr>
+                <td>Ноутбуки</td>
+                <td>Dell Inspiron 15 3501 N3501I511BLK_W10</td>
+                <td>Dell</td>
+                <td>22 000 грн</td>
+                <td>В наявності</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">Всього товарів: 5</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
